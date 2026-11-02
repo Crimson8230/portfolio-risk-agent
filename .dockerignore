@@ -1,0 +1,22 @@
+# Build context allowlist: never send local secrets, portfolios, or traces.
+**
+!Dockerfile
+!requirements-lock.txt
+!cli.py
+!pytest.ini
+!portfolio/
+!portfolio/**
+!tools/
+!tools/**
+!agent/
+!agent/**
+!tests/
+!tests/**
+!data/
+!data/assets.json
+!data/sample_portfolio.json
+!data/invalid_portfolio.json
+**/__pycache__/
+**/*.pyc
+**/.env
+**/.env.*

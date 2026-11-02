@@ -1,0 +1,20 @@
+{
+  "US0378331005": {
+    "name": "Apple Inc.",
+    "asset_type": "stock",
+    "sector": "Technology",
+    "country": "US"
+  },
+  "US5949181045": {
+    "name": "Microsoft Corp.",
+    "asset_type": "stock",
+    "sector": "Technology",
+    "country": "US"
+  },
+  "IE00B4L5Y983": {
+    "name": "iShares Core MSCI World UCITS ETF",
+    "asset_type": "etf",
+    "sector": null,
+    "country": null
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "currency": "EUR",
+  "holdings": [
+    {"isin": "US0378331005", "value": 4000},
+    {"isin": "US5949181045", "value": 3000},
+    {"isin": "IE00B4L5Y983", "value": 3000}
+  ]
+}
