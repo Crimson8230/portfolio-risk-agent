@@ -20,7 +20,7 @@ def analyze_concentration(portfolio: Portfolio) -> dict:
         "hhi": float(sum(((holding.value / total) ** 2 for holding in portfolio.holdings), Decimal(0))),
         "concentration_flag": flag,
         "caveats": [
-            "The flag is an arbitrary teaching heuristic, not a validated portfolio risk rating.",
+            "The flag is a simple heuristic, not a validated portfolio risk rating.",
             "HHI measures instrument weights, not underlying ETF diversification or overlap.",
         ],
     }
